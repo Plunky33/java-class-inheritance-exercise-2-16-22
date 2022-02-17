@@ -33,6 +33,14 @@ public class Pizza extends SizeIngredients {
         this.toppings = toppings;
     }
 
+    public int getNumToppings(){
+        return this.numToppings;
+    }
+
+    public void setNumToppings(String numToppings) {
+        this.numToppings = Integer.parseInt(numToppings);
+    }
+
     /*
         Another example of polymorphism, method overriding (runtime polymorphism)
      */
